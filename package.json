@@ -1,0 +1,15 @@
+
+{
+	"name": "spanacomnpm",
+	"version": "0.0.1",
+	"description": "...",
+	"main": "main.js",
+	"author": {
+		"name": "spanacom ltd"
+	},
+	"keywords": [ "spanacomnpm"],
+	"engines": {
+		"node": "*"
+	},
+	"readmeFilename": "README.md"
+}
