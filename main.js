@@ -5,8 +5,8 @@ this.Spanacom = function(apikey) {
     
   var https = require('https'),
   OPTS = {
-    host: 'spanacom.com',
-    port: 80,
+    host: 'api.spanads.com',
+    port: 443,
     prefix: '/api/1.0/',
     method: 'POST',
     rejectUnauthorized: false,
