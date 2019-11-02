@@ -28,7 +28,7 @@ this.Spanacom = function(apikey) {
       params.apikey = this.apikey;
       params = new Buffer(JSON.stringify(params), 'utf8');
       if (this.debug) {
-        console.log("Spanacom: Opening request to https://" + OPTS.host + OPTS.prefix + uri + ".json");
+        console.log("Spanacom: Opening request to https://" + OPTS.host + OPTS.prefix + uri + ".json/");
       }
       OPTS.path = "" + OPTS.prefix + method + ".json";
       OPTS.headers['Content-Length'] = params.length;
