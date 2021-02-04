@@ -1,5 +1,4 @@
 (function() {
-"use strict";
 
 this.Spanacom = function(apikey) {
     
