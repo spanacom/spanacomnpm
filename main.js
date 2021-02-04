@@ -31,7 +31,7 @@ this.Spanacom = function(apikey) {
       }
       OPTS.path = "" + OPTS.prefix + method + ".json";
       OPTS.headers['Content-Length'] = params.length;
-      req = https.request(OPTS, (function(_this) {
+      req = https.get(OPTS, (function(_this) {
         return function(res) {
           var json;
           res.setEncoding('utf8');
